@@ -303,6 +303,14 @@ section {
   text-align: center;
 }
 
+.center-list {
+  list-style-position: inside; /* keeps bullets inside the list area */
+  text-align: center;          /* centers the whole list */
+  padding: 0;                  /* removes extra spacing */
+  margin: 0 auto;              /* centers it horizontally */
+}
+
+
 .section-container {
   gap: 4rem;
   height: 80%;
